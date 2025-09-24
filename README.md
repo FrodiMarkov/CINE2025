@@ -6,9 +6,17 @@ El flujo consiste en preparar los archivos HTML/CSS/JS, reemplazar el `index.htm
 
 ---
 
+
+### 1. Copia de los archivos desde el host al contenedor
+Luego se copiaron los archivos del proyecto (`CINE2025`) desde Windows al contenedor de Docker en la ruta `/usr/share/nginx/html/`.
+
+![Docker Copy](docs/img/screenshot_1.png)
+
+---
+
 ## ⚡ Pasos principales
 
-### 1. Listado de archivos y reemplazo de `index.html`
+### 2. Listado de archivos y reemplazo de `index.html`
 Primero listamos el contenido de `/usr/share/nginx/html/`.  
 Se eliminó el `index.html` por defecto y se reemplazó por el archivo `ventaentradas.html` para que sea la página principal.
 
@@ -16,12 +24,6 @@ Se eliminó el `index.html` por defecto y se reemplazó por el archivo `ventaent
 
 ---
 
-### 2. Copia de los archivos desde el host al contenedor
-Luego se copiaron los archivos del proyecto (`CINE2025`) desde Windows al contenedor de Docker en la ruta `/usr/share/nginx/html/`.
-
-![Docker Copy](docs/img/screenshot_1.png)
-
----
 
 ## 🚀 Comandos útiles
 
